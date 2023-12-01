@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.h": "c",
+        "*.proto": "proto3",
+        "*.java": "java",
+        "*.vue": "vue-html",
+        "iostream": "cpp"
+    },
+    "cmake.configureSettings": {
+        "CMAKE_TOOLCHAIN_FILE": "${workspaceFolder}/toolchains/aarch64-linux-gnu.toolchain.cmake",
+      }
+}
