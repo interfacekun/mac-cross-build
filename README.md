@@ -1,9 +1,9 @@
 ## vscode mac c/c++交叉编译环境配置步骤
-1. 安装c/c++插件(只用装一次)  
+1. vscode安装c/c++插件(只用装一次)  
 
-2. 安装cmake tools 插件(只用装一次)  
+2. vscode安装cmake tools 插件(只用装一次)  
 
-3. brew安装交叉编译环境(只用装一次), [homebrew-macos-cross-toolchains](https://github.com/messense/homebrew-macos-cross-toolchains)  
+3. brew安装交叉编译环境(只用装一次，你要编译哪个平台就装哪一个即可), [homebrew-macos-cross-toolchains](https://github.com/messense/homebrew-macos-cross-toolchains)  
 ```bash
 # 可选，用ninja编译更快，当然不装也可以
 brew install ninja
